@@ -1,0 +1,67 @@
+令辰，我现在在跟西电区块链审计的子课题。
+关于差分隐私理解的问题，请教一下。
+本子里写的是关于差分隐私有两个点：
+1.设计支持链码的同态加密、差分隐私等数据加密方案
+2.针对基于差分隐私的数据保护方案，设计链上数据的前期去隐私化处理机制，实现支持噪声动态注入的链上数据统计分析。
+
+现在差分隐私主要是1.噪音机制扰动数值统计结果和2.指数机制调整统计概率结果。
+
+目前区块链+差分隐私的成果，基本都是用区块链解决差分隐私的应用问题，用区块链记录查询、复用噪声、记录操作等。
+没有用差分隐私解决区块链链上数据隐私保护的研究。
+
+咱们本子当初的想法是：用差分隐私处理数据后，将结果存储在区块链上，是这样吗？
+
+
+
+关于差分隐私在区块链的应用调研。
+
+和
+
+一句话：
+	差分隐私和区块链结合有一些研究，但是用差分隐私解决区块链数据安全问题很少。
+	@令辰不了解《区块链审计》本子相关问题，@胡胜山未参与差分隐私部分编写。
+
+
+结论：
+	1.差分隐私（DP）可以用于统计型数据（噪声机制），也可以用于非统计型数据（指数机制）。
+	2.目前现有研究，集中在用区块链解决DP问题[2][3]，缺少用DP解决区块链数据安全（我们的方向）。
+	3.DP解决区块链数据安全（统计型数据），概念上具有可行性，但是相关研究很少（仅一篇survey）[1]。
+
+研究概述：
+	研究现状：
+	2018-2021年，区块链+差分隐私（DP）的文章14篇，2020年7篇，2021年5篇，呈逐渐增多趋势。
+	有两篇发表在AsiaCCS、IEEE IoT、有7篇arXiv未发表，文章质量不高。
+	研究内容：
+	1.优化DP算法：用区块链技术解决DP的噪音预算[2][3]；
+	3.区块链和DP轻耦合：区块链和差分隐私松散结合，解决某个场景隐私问题[4][5][6]。
+	2.解决区块链数据安全：用差分隐私解决区块链隐私安全的survey[1]。（和我们本子契合）
+
+DP在本项目应用的分析：
+	项目为区块链审计，具有较强金融属性，可能涉及代币交易，为典型数值统计场景。
+		（1）给交易发送方注入噪声，噪声扰动不影响交易正确性，最终结果也被扰动。
+		（2）给区块链数据注入噪声，交易过程正常，仅扰动最终结果。
+		优势：创新，工作量大，有应用场景。
+		风险：噪声注入会破坏其数据准确性，影响区块链行为状态一致，破坏共识，其可行性有待验证。
+	项目扩展到数据服务，即结合某数据查询场景，涉及数值统计场景和非统计场景。
+		（1）区块链提供噪声扰动和指数机制的查询服务，数据存储在链外，或者在链上加密。
+		优势：已有相关研究，且技术可行，有一定创新空间。
+		风险：偏离主题“监管”，缺少突破性工作。
+
+遗留问题：
+1.@令辰未参与区块链审计的本子，@胡胜山未负责差分隐私部分的编写，两位都不了解，还有哪些同学参与了本子？
+
+2.@胡胜山看法：用DP处理数据后，将结果存储在区块链上。
+	但这个idea太简单，只是将区块链和DP松散结合，别人已有工作，缺乏创新。
+
+3.DP+区块链，可以出专利，目前有初步idea，是否继续研究下去。
+
+4.差分隐私投入：需要投入10-14天学习差分隐私、统计及相关知识。
+
+
+参考文献：
+[1](Journal of Parallel and Distributed Computing 2020)Differential privacy in blockchain technology A futuristic approach.
+[2](ACM ASIACCS 2020)Blockchain-Based Differential Privacy Cost Management System.
+[3](IEEE INTERNET OF THINGS JOURNAL 2021)A Blockchain-Based Approach for Saving and Tracking Differential-Privacy Cost.
+[4](IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS 2019)Differential Privacy-Based Blockchain for Industrial Internet-of-Things.
+[5]Combinatorial Resources Auction in Decentralized Edge-Thing Systems Using Blockchain and Differential Privacy
+[6]Differential Privacy-Based Online Allocations towards Integrating Blockchain and Edge Computing
