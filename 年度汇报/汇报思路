@@ -1,0 +1,46 @@
+1.成果
+	通信学报 Journal of Communication 区块链网络安全保障：攻击与防御
+	IEEE TRANSACTIONS ON PARALLEL AND DISTRIBUTED SYSTEMS TPDS BOSSA: A Decentralized System for Proofs of Data Retrievability and Replication
+
+
+
+	区块链网络安全保障：攻击与防御
+
+
+	区块链的基本组成部分为区块。在交易过程中，不断有新的区块链接到区块链中，而链接过程存在区块链状态不一致和分叉的威胁。另外，区块链底层高度依赖密码算法，攻击者可以利用密码系统的漏洞造成用户私钥泄露，从而引发财产损失等安全问题。
+
+	在网络层，区块链网络的基础网络基础设施漏洞和自身 P2P 网络结构是引发安全问题的主要原因。
+
+	区块链的实现很大程度上得益于共识层的设计。在这一层中，区块链在一个分布式去中心化的账本上运行，链中的所有节点通过共识机制保持统
+一运行状态。目前，共识层中的大多数安全威胁都是随着矿池的出现而产生的
+
+
+在应用层，近期研究主要集中在提高性能和拓宽区块链系统的应用潜力上[34,51]，与之密切相关的安全问题包括支付通道的隐私和安全问题，匿名货币交易隐私泄露，智能合约漏洞等。
+
+[1][5] GOGO J. European Bitcoin exchange hacked for $1.4 million, claims it cannot afford to repay users [EB/OL]. Bitcoin.com, 2020-08-04. 
+[2][6] HAIG S. 51% attack bleeds more than $5M from Ethereum classic [EB/OL]. Cointelegraph, 2020-08-06. 
+[3][7] 袁勇, 王飞跃. 区块链技术发展现状与展望[J]. 自动化学报, 2016, 42(4): 481-494. 
+[4][8] 祝烈煌, 高峰, 沈蒙, 等. 区块链隐私保护研究综述[J]. 计算机研究与发展, 2017, 54(10): 2170-2186.
+[5][9] 韩璇, 袁勇, 王飞跃. 区块链安全问题: 研究现状与展望[J]. 自动化学报, 2019, 45(1): 206-225. 
+[6][10] 斯雪明, 徐蜜雪, 苑超. 区块链安全研究综述[J]. 密码学报, 2018, 5(5): 8-19. 
+[7][34] DECKER C, WATTENHOFER R. A fast and scalable payment network with bitcoin duplex micropayment channels[C]//Symposium on Self-Stabilizing Systems. Berlin: Springer, 2015: 3-18. 
+[8][51] LUU L, NARAYANAN V, ZHENG C, et al. A secure sharding protocol for open blockchains[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. New York: ACM Press, 2016: 17-30.
+[9][54] SYTA E, TAMAS I, VISHER D, et al. Keeping authorities “honest or bust” with decentralized witness cosigning[C]//2016 IEEE Symposium on Security and Privacy. Piscataway: IEEE Press, 2016: 526-545. 
+[10][50] GAO S, LI Z, PENG Z, et al. Power adjusting and bribery racing: Novel mining attacks in the bitcoin system[C]//Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. New York: ACM Press, 2019: 833-850.
+[11][57] CORBETT J C, DEAN J, EPSTEIN M, et al. Spanner: Google’s globally distributed database[J]. ACM Transactions on Computer Systems, 2013, 31(3): 1-22.
+[12][17] APOSTOLAKI M, ZOHAR A, VANBEVER L. Hijacking bitcoin: routing attacks on cryptocurrencies[C]//2017 IEEE Symposium on Security and Privacy. Piscataway: IEEE Press, 2017: 375-392. 
+[13][19] BORGE M, KOKORIS-KOGIAS E, JOVANOVIC P, et al. Proof-of-personhood: redemocratizing permissionless cryptocurrencies[C]//2017 IEEE European Symposium on Security and Privacy Workshops. Piscataway: IEEE Press, 2017: 23-26. 
+
+[1] GOGO J. European Bitcoin exchange hacked for $1.4 million, claims it cannot afford to repay users [EB/OL]. Bitcoin.com, 2020-08-04. 
+[2] HAIG S. 51% attack bleeds more than $5M from Ethereum classic [EB/OL]. Cointelegraph, 2020-08-06. 
+[3] 袁勇, 王飞跃. 区块链技术发展现状与展望[J]. 自动化学报, 2016, 42(4): 481-494. 
+[4] 祝烈煌, 高峰, 沈蒙, 等. 区块链隐私保护研究综述[J]. 计算机研究与发展, 2017, 54(10): 2170-2186.
+[5] 韩璇, 袁勇, 王飞跃. 区块链安全问题: 研究现状与展望[J]. 自动化学报, 2019, 45(1): 206-225. 
+[6] 斯雪明, 徐蜜雪, 苑超. 区块链安全研究综述[J]. 密码学报, 2018, 5(5): 8-19. 
+[7] DECKER C, WATTENHOFER R. A fast and scalable payment network with bitcoin duplex micropayment channels[C]//Symposium on Self-Stabilizing Systems. Berlin: Springer, 2015: 3-18. 
+[8] LUU L, NARAYANAN V, ZHENG C, et al. A secure sharding protocol for open blockchains[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. New York: ACM Press, 2016: 17-30.
+[9] SYTA E, TAMAS I, VISHER D, et al. Keeping authorities “honest or bust” with decentralized witness cosigning[C]//2016 IEEE Symposium on Security and Privacy. Piscataway: IEEE Press, 2016: 526-545. 
+[10] GAO S, LI Z, PENG Z, et al. Power adjusting and bribery racing: Novel mining attacks in the bitcoin system[C]//Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. New York: ACM Press, 2019: 833-850.
+[11] CORBETT J C, DEAN J, EPSTEIN M, et al. Spanner: Google’s globally distributed database[J]. ACM Transactions on Computer Systems, 2013, 31(3): 1-22.
+[12] APOSTOLAKI M, ZOHAR A, VANBEVER L. Hijacking bitcoin: routing attacks on cryptocurrencies[C]//2017 IEEE Symposium on Security and Privacy. Piscataway: IEEE Press, 2017: 375-392. 
+[13] BORGE M, KOKORIS-KOGIAS E, JOVANOVIC P, et al. Proof-of-personhood: redemocratizing permissionless cryptocurrencies[C]//2017 IEEE European Symposium on Security and Privacy Workshops. Piscataway: IEEE Press, 2017: 23-26. 
